@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/static/styles/bot_styles.css">
+    <script src="/static/script.js"></script>
+    <title>{{title}}</title>
+    <link rel="icon" href="{{icon}}"  type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+
+        <a href="/flaskapp/bot?username={{username}}">Bot</a>
+        <a href="/flaskapp/configurecompanyquestion?username={{username}}">Intents and messages</a>
+    </nav>
+    <h1>{{title}}'s ChatBot</h1>
+    <div class="bot_interface" id="bot_interface">
+        <span class="bot_heading">Bot</span>
+        <span class="user_heading">User</span>
+        
+    </div>
+    <div class="down_box">
+        <input type="text" class="prompt" id="prompt" placeholder="Enter your message:"/>
+        <input type="submit" value="✔" class="tick" onclick="sendmsg()"/>
+    </div>
+    
+    
+</body>
+</html>

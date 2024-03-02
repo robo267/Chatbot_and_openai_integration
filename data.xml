@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<data>
+
+    <client name="client1">
+        <path>client1.xml</path>
+    </client>
+
+    <client name="client2">
+        <path>client2.xml</path>
+    </client>
+
+</data>

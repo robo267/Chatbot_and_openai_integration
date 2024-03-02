@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles/I&T.css">
+    <script src="/static/I&T.js"></script>
+    <title>Bot</title>
+</head>
+<body>
+    <nav>
+        <a href="/flaskapp/bot?username={{username}}">Bot</a>
+        <a href="/flaskapp/configurecompanyquestion?username={{username}}">Intents and messages</a>
+    </nav>
+    <div id="popup_bg" class="popup_bg">
+        <div class="popup">
+            <div class="head_part">
+                <h1 class="heading">Similar Sentences</h1>
+                <button class="cross">❌</button>
+            </div>
+            <form action="/save">
+                <textarea id="predictionTextarea"></textarea><br>
+                <button class="save">Save</button>
+            </form>
+        </div>
+    </div>
+    
+    <h1>Configure your company related question that Job seekers would query and know via the ChatBot.</h1>
+    <ul>
+        <div class="listing_dabba">
+        {% for category, message in result %}
+        <form method="post" class="container" action="/delete">
+            <input type="hidden" value="{{category}}" name="category"/>
+            <button type="submit" class="neg">-</button>
+            <li>    
+                <strong>Intent:</strong> {{ category }}<br>
+                <strong>Answers:</strong> {{ message }}
+            </li>
+        </form>
+        {% endfor %}
+        </div>
+    </ul>
+    <h1>Add an Intent:</h1>
+    <ul class="form-list">
+        <li>
+            <input type="text" id="intent" class="intent" name="intent" placeholder="Enter the new intent name:" />
+        </li>
+        <li>
+            <textarea id="question" class="question" name="question" placeholder="Enter your question:"></textarea>
+        </li>
+        <li>
+            <textarea id="answer" class="answer" name="answer" placeholder="Enter your answer:"></textarea>
+        </li>
+        <li>
+            <p id="mess" class="message"></p>
+        </li>
+        <li>
+            <button type="submit" onclick="showPopup()" class="save-btn">Save</button>
+        </li>
+    </ul>
+
+</body>
+</html>

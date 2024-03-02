@@ -1,0 +1,7 @@
+> flask run --debug 
+or
+> python app.py
+
+// http://127.0.0.1:5000/flaskapp/bot?username=client1
+// http://127.0.0.1:5000/flaskapp/configurecompanyquestion?username=client1
+

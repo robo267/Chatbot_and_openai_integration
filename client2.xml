@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<data>
+        <title>IBM</title>
+        
+        <icon>https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png</icon>
+
+        <intent category="company_employees">
+<answer><![CDATA[288,300]]></answer>
+</intent>
+ 
+        
+ 
+        <intent category="company_locations">
+<answer><![CDATA[Ahmedabad, Bengaluru, Bhubaneshwar, Chennai, Coimbatore, Delhi, Gurgaon, Hyderabad, Kochi, Kolkata, Mumbai, Noida, Pune, Mysore and Visakhapatnam.]]></answer>
+</intent>
+ 
+
+        <intent category="company_info">
+<answer><![CDATA[The International Business Machines Corporation (using the trademark IBM), nicknamed Big Blue, is an American multinational technology corporation headquartered in Armonk, New York and is present in over 175 countries.]]></answer>
+</intent>
+ 
+</data>

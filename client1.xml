@@ -1,0 +1,9 @@
+<data>
+        <title>Google</title>
+        <icon>https://www.freepnglogos.com/uploads/google-logo-png/google-logo-vector-graphic-pixabay-15.png</icon>
+
+        <intent category="company_employees"><answer> 156,500 employees</answer></intent>
+        <intent category="company_locations"><answer>Mumbai, Bangalore, Hyderabad, and Gurgaon.</answer></intent><intent category="company_jobs"><answer>Software and Hardware</answer></intent><intent category="company_culture"><answer>Yes it is very user friendly.</answer></intent><intent category="jobs_inquiry"><answer>Two kinds of jobs are available: Software and Hardware</answer></intent><intent category="salary_inquiry"><answer>6LPA</answer></intent><intent category="internship_inquiry"><answer>Junior software developer,Junior hardware developer</answer></intent><intent category="code_inquiry"><answer>Sorry I can't tell you that...!</answer></intent><intent category="company_info"><answer>Google is an American multinational technology company focusing on artificial intelligence, online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, and consumer electronics. It has been referred to as "the most powerful company in the world"</answer></intent><intent category="employee_satisfaction_inquiry"><answer>Yes the employees are very much satisfied.</answer></intent>
+ 
+<intent category="user_custom_action"><answer>I have been trained on the large corpus of textual data that.</answer></intent>
+<intent category="be_a_cook"><answer>No I can't</answer></intent></data>
