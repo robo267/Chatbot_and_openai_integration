@@ -177,7 +177,7 @@ def predict():
     global question
     global sim_sens
     #try:
-    openai.api_key = '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'
+    openai.api_key = '<YOUR-API-KEY>'
     mess = [ {"role": "system", "content":
 			"You are a intelligent assistant."} ]
     prompt = f"Give me similar questions for this sentence '{question}'"
