@@ -1,0 +1,17 @@
+After creating a virtual environment install rasa by using following command:
+    pip install rasa
+
+Then to get a basic chatbot use following command:
+    rasa init
+    * Type-'y' as yes for further instructions
+
+To check the rasa from same command prompt use following command:
+    rasa shell
+
+Now replace these provided files with the files with same names in the rasa bot file sturcture
+
+Use follwing command to train again after every change made in the files:
+    rasa train
+
+Use the following command to host the bot on the api(http://localhost:5005/webhooks/rest/webhook) which is default for rasa:
+    rasa run -m models --enable-api --cors "*" --debug

@@ -20,7 +20,8 @@
     <img src="./images/endpoint.png" alt="Image 1" style="width: 400px; height: 250px; margin-right: 10px;">
     </div>
 
-### 2. Intents and answers
+
+## 2. Intents and answers
 
 ### The features of intents and answers are:
    #### The intents and answers are initially stored in XML files through which the individual client data is retrieved and displayed.
@@ -41,3 +42,4 @@
     <!-- Second image -->
     <img src="./images/q-2.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
     </div>
+

@@ -1,0 +1,29 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Provide company info
+  steps:
+  - intent: company_info
+  - action: actions_company_info
+
+- rule: Provide company info
+  steps:
+  - intent: company_locations
+  - action: actions_company_locations
+
+#- rule: Tell about yourself
+ # steps:
+  #  - intent: bot_challenge
+   # - action: utter_iamabot

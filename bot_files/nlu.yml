@@ -1,0 +1,117 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: company_info
+  examples: |
+    - Could you provide me with information regarding this company?
+    - I'm interested in learning more about this company; could you please share some details?
+    - Can you offer some insights into the background of this company?
+    - Would you mind giving me an overview of this company's operations?
+    - I'd like to know more about this company; could you elaborate on its history?
+    - Can you shed some light on what this company does?
+    - I'm curious about this company; can you provide me with some background information?
+    - Could you tell me a bit about the origins of this company?
+    - Can you provide some context about this company?
+    - I'm interested in the story behind this company; could you fill me in?
+
+- intent: company_locations
+  examples: |
+    - Can you tell me about the career opportunities currently open at your organization?
+    - What job positions are currently available within your company?
+    - Could you provide information about the employment opportunities at your firm?
+    - What types of roles are you currently hiring for in your company?
+    - Are there any job vacancies at your organization that I should know about?
+    - Can you share details about the available job openings at your company?
+    - What career paths can one pursue at your company?
+    - Could you give an overview of the job opportunities within your organization?
+    - What positions are you looking to fill in your company?
+    - Are there any career prospects or job openings I should be aware of at your firm?
