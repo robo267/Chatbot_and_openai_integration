@@ -44,4 +44,21 @@
     <img src="./images/q-2.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
     </div>
 
+### Database used:
+#### MongoDB for storing the similar questions with intent as key and list of questions/sentences as value.
 
+   <div style="display: flex;">
+    <!-- First image -->
+    <img src="./images/db.png" alt="Image 1" style="width: 400px; height: 250px; margin-right: 10px;">
+    </div>
+
+## prerequisites:
+   ### Create a virtual environment within the same directory using command:
+   #### python -m venv <env-name>
+   ### Activate the virtual environment using the following command:
+   #### <env-name>\Scripts\activate
+   ### Install all these required packages:
+   #### pip install flask
+   #### pip install requests
+   #### pip install pymongo
+   #### pip install openai==0.28
