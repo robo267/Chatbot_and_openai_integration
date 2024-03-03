@@ -1,3 +1,4 @@
+# This is a personal project done as part of my Internship at Infinite Computer Soultions.
 # The UI includes Combination of two ideas which includes:
 ## 1. Chatbot using rasa.
 ## 2. Intents and answers from clients.
@@ -42,4 +43,5 @@
     <!-- Second image -->
     <img src="./images/q-2.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
     </div>
+
 
