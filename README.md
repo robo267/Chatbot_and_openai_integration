@@ -1,4 +1,4 @@
-# This is a personal project done as part of my Internship at Infinite Computer Soultions.
+# This is a personal project done as part of my Internship program at Infinite Computer Soultions.
 # The UI includes Combination of two ideas which includes:
 ## 1. Chatbot using rasa.
 ## 2. Intents and answers from clients.
