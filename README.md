@@ -52,7 +52,7 @@
     <img src="./images/db.png" alt="Image 1" style="width: 400px; height: 250px; margin-right: 10px;">
     </div>
 
-## prerequisites:
+## Prerequisites:
    ### Create a virtual environment within the same directory using command:
    #### python -m venv <env-name>
    ### Activate the virtual environment using the following command:
